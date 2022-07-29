@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Ibarra+Real+Nova&family=Open+Sans:wght@300&family=Quattrocento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tre Kronor</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="brand-title"><a href="./index.html" ><h1>Tre Kronor</h1></a><p>Car and Van Rental</p></div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="./index.html#bookings">Book Now</a></li>
+          <li><a href="./index.html#features">About Us</a></li>
+          <li><a href="./index.html#services.html">Our Cars</a></li>
+          <li><a href="./index.html#testimonials">Our Customers</a></li>
+        </ul>
+      </div>
+  </nav>
+    <div class="cars">
+
+    <div class="wrapper">
+        <div class="card">
+            <input type="checkbox" id="card1" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="front" style="background-image: url('./images/picanto.jpg')">
+                    <div class="inner">
+                        <h2>Mini-Car</h2>
+
+                        <label for="card1" class="button" aria-hidden="true">
+                            Details
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>4</span>
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                                <span>seats</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span></span>
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                                <span>manual</span>
+                            </div>
+                        </div>
+
+
+                        <div class="description">
+                            <p>Kia Piccanto (or similar)</p>
+                        </div>
+
+                        <div class="price">From 100 SEK / day</div>
+                        <label for="card1" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <input type="checkbox" id="card2" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="front" style="background-image: url('./images/sandero.jpg')">
+                    <div class="inner">
+                        <h2>Small Car</h2>
+
+                        <label for="card2" class="button" aria-hidden="true">
+                            Details
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>5</span>
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                                <span>seats</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span></span>
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                                <span>manual</span>
+                            </div>
+                        </div>
+
+
+                        <div class="description">
+                            <p>Dacia Sandero (or similar)</p>
+                        </div>
+
+                        <div class="price">From 250 SEK / day</div>
+                        <label for="card2" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <input type="checkbox" id="card3" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="ribbon"><span>POPULAR</span></div>
+                <div class="front" style="background-image: url('./images/clio.jpg')">
+                    <div class="inner">
+                        <h2>Compact Car</h2>
+
+                        <label for="card3" class="button" aria-hidden="true">
+                            Details
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>4</span>
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                                <span>seats</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span></span>
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                                <span>manual</span>
+                            </div>
+                        </div>
+
+
+                        <div class="description">
+                            <p>Renault Clio (or similar)</p>
+                        </div>
+
+                        <div class="price">From 300 SEK / day</div>
+                        <label for="card3" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <input type="checkbox" id="card4" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="front" style="background-image: url('./images/jogger.jpg')">
+                    <div class="inner">
+                        <h2>Family Car</h2>
+
+                        <label for="card4" class="button" aria-hidden="true">
+                            Details
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>4</span>
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                                <span>seats</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span></span>
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                                <span>manual</span>
+                            </div>
+                        </div>
+
+
+                        <div class="description">
+                            <p>Dacia Jogger (or similar)</p>
+                        </div>
+
+                        <div class="price">From 380 SEK / day</div>
+                        <label for="card4" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <input type="checkbox" id="card5" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="front" style="background-image: url('./images/3008.jpg')">
+                    <div class="inner">
+                        <h2>SUV (Automat)</h2>
+
+                        <label for="card5" class="button" aria-hidden="true">
+                            Details
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>5</span>
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                                <span>seats</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span></span>
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                                <span>manual</span>
+                            </div>
+                        </div>
+
+
+                        <div class="description">
+                            <p>Peugeot 3008 (or similar)</p>
+                        </div>
+
+                        <div class="price">From 450 SEK / day</div>
+                        <label for="card5" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <input type="checkbox" id="card6" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="front" style="background-image: url('./images/trafic.jpeg')">
+                    <div class="inner">
+                        <h2>Mini Bus</h2>
+
+                        <label for="card6" class="button" aria-hidden="true">
+                            Details
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>9</span>
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                                <span>seats</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span></span>
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                                <span>manual</span>
+                            </div>
+                        </div>
+
+
+                        <div class="description">
+                            <p>Opel Movano (or similar)</p>
+                        </div>
+
+                        <div class="price">From 800 SEK / day</div>
+                        <label for="card6" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <input type="checkbox" id="card7" class="more" aria-hidden="true">
+            <div class="content">
+                <div class="front" style="background-image: url('./images/partner.jpg')">
+                    <div class="inner">
+                        <h2>Skaphil/Van (3 m3)</h2>
+
+                        <label for="card7" class="button" aria-hidden="true">
+                            Details
+                        </label>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <div class="info">
+                            <span>5</span>
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                                <span>seats</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span></span>
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                                <span>manual</span>
+                            </div>
+                        </div>
+
+
+                        <div class="description">
+                            <p>Peugeot Partner (or similar)</p>
+                        </div>
+
+                        <div class="price">From 700 SEK / day</div>
+                        <label for="card7" class="button return" aria-hidden="true">
+                            <i class="fas fa-arrow-left"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- @kparzecki -->
+<!-- <div class="cars">
+
+</div>
+    <div class="row fila_autos">
+        <div class="flip-card col-sm-10 col-5 p-3">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./images/picanto.jpg">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Mini Car (Manual - 4 Seats)</h1>
+                    <p>Kia Piccanto or similar</p>
+                    <p>From 10 Kr a day</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-1"></div>
+        <div class="flip-card col-sm-10 col-5 p-3">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./images/sandero.jpg">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Small Car (Manual - 5 Seats)</h1>
+                    <p>Dacia Sandero or similar</p>
+                    <p>From 250 Kr a day</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <div class="row fila_autos">
+        <div class="flip-card col-sm-10 col-5">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="box">
+                        <div class="ribbon"><span>POPULAR</span></div>
+                        <img src="./images/clio.jpg">
+                     </div>
+
+                </div>
+                <div class="flip-card-back">
+                    <h1>Compact Car (Manual - 4 Seats)</h1>
+                    <p>Renault Clio or similar</p>
+                    <p>From 300 Kr a day</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-1"></div>
+        <div class="flip-card col-sm-10 col-5">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./images/jogger.jpg">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Family Car (Manual)</h1>
+                    <p>Dacia Jogger or similar</p>
+                    <p>From 380 Kr a day</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <div class="row fila_autos">
+        <div class="flip-card col-sm-10 col-5">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./images/3008.jpg">
+                </div>
+                <div class="flip-card-back">
+                    <h1>SUV (Automat)</h1>
+                    <p>Peugeot 3008 or similar</p>
+                    <p>From 450 Kr a day</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-1"></div>
+        <div class="flip-card col-sm-10 col-5">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="https://acortar.link/JsBAVj">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Mini Bus (Manual - 9 Seats)</h1>
+                    <p>Opel Movano or similar</p>
+                    <p>From 800 Kr a day</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <div class="row fila_autos">
+        <div class="flip-card col-sm-10 col-5">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="https://acortar.link/ty8PKr">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Skaphil/Van (3 m3)</h1>
+                    <p>Peugeot Partner or similar</p>
+                    <p>From 700 Kr a day</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div> -->
+    </div>
+
+</body>
+
+
+
+
+<footer class="white-section" id="footer">
+    <div class="container-small">
+        <img class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/2560px-Flag_of_Sweden.svg.png"
+            alt="swedish-flag">
+        <h6><b>© Copyright 2022 TreKronor</b></h6>
+
+        <p>Made with
+            <span><i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;"></i></span>
+            by kITsune
+        </p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="script.js" charset="utf-8"></script>
+
+</html>
+</div>
